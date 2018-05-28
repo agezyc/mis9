@@ -1,0 +1,186 @@
+body,html{
+	padding: 0;
+	margin:0;
+	font-size: 16px;
+	width: 100%;
+	height: 100%;
+}
+
+header{
+	width:100%;
+
+}
+
+main{
+	width:100%;
+
+	background: #fafafa;
+}
+.container{
+	padding-left:0;
+	padding-right:0;
+}
+.row{
+	margin:0;
+}
+
+.hrowg>ul>li>a{
+	color:white;
+}
+
+.hrowg{
+	
+	background: #29b078;
+	height: 100px;
+	line-height: 100px;
+}
+
+.contentg>ul>li>a{
+	color:black;
+}
+
+.contentg>li.active{
+	color: green;
+}
+
+.intro2{
+	border:1px solid #f6f6f6;
+	border-radius: 5px;
+	box-shadow: 15px;
+	height: 450px;
+	margin-top:45px;
+	background: black;
+	z-index: 22;
+	 opacity:0.6;
+  filter:alpha(opacity=60);
+}
+.intro{
+	border:1px solid #f6f6f6;
+	border-radius: 5px;
+	box-shadow: 15px;
+	height: 450px;
+	margin-top:45px;
+	background: white;
+	z-index: 22;
+}
+
+
+.grayrim{
+	border-bottom:1px solid #edf1f2;
+	
+}
+
+.grayright{
+	border-right:1px solid #edf1f2;
+	
+}
+
+.xinz{
+	height: 120px;
+	line-height: 120px;
+	text-align: center;
+}
+
+
+
+.homepage{
+	height: 80px; line-height: 80px; border-bottom:1px solid #d0d6d9;
+}
+
+.contentg{
+	height: 60px;
+	line-height: 60px;
+
+}
+.nav-f{
+	height: 60px;
+	line-height: 60px;
+}
+
+ul.nav-f>li>a{
+	padding: 1px;
+	padding-left:10px;
+	margin-top:17px;
+	
+}
+
+.qd{
+	height: 80px;
+	line-height: 80px;
+	border-bottom: 1px solid #d0d6d9;
+}
+
+.l40{
+	height: 40px;
+	line-height: 40px;
+}
+
+.blbb{
+	padding:0 10px 0 10px;
+	border-left:1px solid #edf1f2;
+	border-bottom:1px solid #edf1f2;
+}
+
+.d1{
+    position:relative;
+    left:-10px;
+}
+.d3{
+    position:relative;
+    right:-10px;
+}
+
+.jianju{
+	padding-left:13px;
+	padding-right: 13px;
+
+}
+
+.ht{
+	margin-top:20px;
+}
+
+.lpic{
+	height: 248px;
+	background: #f1a750;
+}
+
+.col-md-3>.ct1>ul>li>a{
+	color:#29b078;
+
+}
+
+
+
+.circle{
+
+				margin-top:3px;
+				margin-right:5px;
+                width:15px;
+                height:15px;
+                border:2px solid #ff640c;
+                border-radius:100px;
+}
+
+.selected
+	{
+		background: #f9a372;
+		color:#f9a372;
+	}
+
+
+.navwid{
+	border:1px solid #ededed;
+	border-radius: 5px;
+
+}
+
+
+
+.ct{
+	display: flex;
+	flex:1; 
+	margin-top:35px;
+	margin-bottom: 35px;
+
+}
