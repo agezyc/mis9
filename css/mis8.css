@@ -1,17 +1,24 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1080px) {
+	html{
+
+    font-size:625%;
+
+}
 	div.lpic>div.container>img{
 		max-width: 100%;
 
 	}
-	.s2{
-		height: 5700px;
-	}
+	.headline{
+        width:200px;
+        margin:0 auto;
+
+    }
 	.jianju{
 		padding: 0;
 		margin: 0;
 	}
-	.navwid{
-		margin-left:15px;
+	div.col-md-2>img{
+		width: 100%;
 	}
 	.f8{
 		font-size: 10px;
@@ -44,9 +51,7 @@
 	div.navbar-header>a>img{
 		width:50%;
 	}
-	.s1{
-	height: 3500px;
-	}
+	
 	.linklie{
 		display: flex;
 		flex-direction: column;
@@ -77,21 +82,14 @@
 		background: #FFF;
 			
 		}
-	div.s>.col-md-3>ul{
-	list-style:none;
-	height: 176px;
-	text-align: center;
+	
 
-	}
-
-	div.s>.col-md-3>ul>li{
+	div.s>.col-md-6>ul>li{
 		text-align: center;
 		
 		
 	}
-	div.s>.col-md-3>ul>li>img{
-		width: 20%;
-	}
+	
 	.circle2{
 			width:50px;
 			height:50px;
@@ -106,6 +104,19 @@
 	.mt15{
 		margin-top:15px;
 	}
+	
+	
+	
+	
+	.tudouimg
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		 align-items: center;
+		padding: 10px;
+		 border-bottom:1px solid #f8f8f8;
+		}
 
 	div.circle2>span{
 		text-align: center;
@@ -150,9 +161,7 @@
 		margin-right: 10px;
 	}
 
-	.zhiweiimg{
-		width: 100%;
-	}
+
 	.ptd{
 		padding: 20px;
 	}
@@ -218,16 +227,82 @@
 	background: white;
 
 }
+.maincontent {
+        width: 100%;
+        margin: 30px auto;
+    }
 
+ .company{
+        height: 500px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        border: 1px solid #e6e7e6 ;
+        border-radius: 6px;
+        box-shadow:2px 2px 5px 2px lightgrey;
+    }
+    .company a {
+        height: 100px;
+        width:100%;
+        display: block;
+        padding-left:20px;
+        margin:0 auto;
+    }
+	.table1{
+        box-shadow: 1px 1px 2px #eeeded;
+        border-top:none;
+        width:100%;
+    }
 
 }
-
+.table1{
+    box-shadow: 1px 1px 2px #eeeded;
+    border-top:none;
+}
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
         display: block;
     }
   
 
-@media screen and (min-width: 769px) and (max-width: 1920px) {
+@media screen and (min-width: 1081px) {
+
+	html{
+
+    font-size:625%;
+
+}
+	.cooperate{
+    margin-top:50px;
+}
+
+	 .company{
+    width:12rem;
+    box-shadow:1px 1px 1px lightgrey;
+    display: flex;
+    justify-content: space-between;
+
+}
+.company a {
+    height: 200px;
+    width:150px;
+    display: inline-block;
+    padding-left:20px;
+}
+
+.company a:hover{
+    box-shadow:1px 1px 1px 1px lightgrey;
+}
+	.tudouimg
+	{
+		display: flex;
+		 align-items: center;
+		 padding: 20px;
+		 border-bottom:1px solid #f8f8f8;
+		}
 		.intro2{
 	border:1px solid #f6f6f6;
 	border-radius: 5px;
@@ -237,12 +312,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 	background: white;
 
 }
-		.navwid{
-		margin-left:-15px;
-		}
-		.tudouju{
-			padding: 26px 42px 30px 25px;"
-		}
+	.ml30{
+		margin-left:30px;
+	}
+	
 		.navbar-default{
 			background: #29b078;
 			color:red;
@@ -263,9 +336,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 		margin-top:20px;
 		margin-left:35px;
 		}
-		.s1{
-		height: 1800px;
-		}
+		
 		.linklie{
 	display: flex;
 	flex-direction: row;
@@ -314,9 +385,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 	}
 
 
-	.tudouimg{
-		text-align: center;
-		padding: 40px;}
+	
+
+
 	.link{
 		height: 130px;
 		background: #FFF;
@@ -394,9 +465,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 	background: #FFF;
 	margin-bottom: 50px;}
 
-	.s2{
-		height: 3500px;
-	}
+
 	.jianju{
 	padding-left:13px;
 	padding-right: 13px;
@@ -456,14 +525,21 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 	}
 
 } /*end*/
-body,html{
-	padding: 0;
-	margin:0;
-	font-size: 16px;
-	width: 100%;
-	height: 100%;
+html{
+
+    font-size:625%;
+
+}
+h5{
+    text-align:center;
+    font-size:18px!important;
+    font-weight: bold;
 }
 
+.cooperate{
+    margin-top:50px;
+}
+	
 header{
 	width:100%;
 	background: #29b078;
@@ -484,7 +560,7 @@ footer{
 }*/
 
 main{
-	height: 100%;
+	
 	background: #fafafa;
 }
 .container{
@@ -526,18 +602,27 @@ main{
 
 
 
-.grayrim{
-	border-bottom:1px solid #edf1f2;
-	
-}
+
 
 .grayright{
 	border-right:1px solid #edf1f2;
 	
 }
+.item1{
+    flex:1;
+}
+.item2{
+    flex:2;
+}
 
-
-
+.fx{
+	
+	padding-top:0.2rem;
+    border:1px solid #eeeded;
+    border-bottom:none;
+	display: flex;
+	justify-content: space-between;
+}
 
 .homepage{
 	height: 80px; line-height: 80px; border-bottom:1px solid #d0d6d9;
@@ -581,7 +666,11 @@ main{
   transition:all 1s ease-out .3s;
 }
 
-
+.intro3{
+	 margin-top:0.3rem;
+    padding-left:0;
+    width:400px;
+}
 
 .intro2:hover .hidden1{
  -moz-transform:rotate(90deg) scale(0.5) ;
@@ -663,7 +752,7 @@ li.ct>a{
     border-radius:100px;
 }
 
-
+.maincontent{max-width: 1200px;}
 
 
 .navwid{
@@ -675,7 +764,7 @@ li.ct>a{
 	align-items: center;
 	flex-direction: column;
 	background: #FFF;
-
+	width:25%;
 }
 
 
@@ -683,6 +772,7 @@ li.ct>a{
 	border:1px solid #ededed;
 	border-radius: 5px;
 	background: #FFF;
+	width:72.5%;
 
 }
 
@@ -714,7 +804,12 @@ li.ct>a{
 
 }
 
+.uf{
+	list-style:none;
+	height: 176px;
+	text-align: center;
 
+	}
 
 ul.list-unstyled>li{
 	
@@ -735,9 +830,6 @@ ul.list-unstyled>li{
 	border-bottom: 1px solid #e6e6e6;
 }
 
-.ml30{
-	margin-left:15px;
-}
 
 .home{
 	height: 78px;
@@ -764,6 +856,8 @@ ul.list-unstyled>li{
 	align-items: center;
 	margin: 0;
 	padding: 0;
+	color:#cdcdcd;
+	font-weight: bold;
 }
 
 
@@ -777,7 +871,7 @@ ul.list-unstyled>li{
 }*/
 
 .imgtext{
-	display:flex;
+	
 	color:#cdcdcd;
 	font-weight: bold;
 	
@@ -853,4 +947,17 @@ ul.linklie>li>a{
 
 .intro2:hover .maskarm .mask .markfont{
 	display: block;
+}
+
+.headline{
+    font-size:16px;
+    font-weight:bold;
+    border-bottom:2px solid lightgrey;
+    padding-bottom:10px;
+    width:1200px;
+    margin-top:10px;
+}
+
+.headline p {
+    margin-left: -11px;
 }
